@@ -1,0 +1,622 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   '-S',
+1 verbose cli   'angular/core',
+1 verbose cli   'angular/common',
+1 verbose cli   'angular/compiler',
+1 verbose cli   'angular/platform-browser',
+1 verbose cli   'angular/platform-browser-dynamic',
+1 verbose cli   'rxjs@5.0.0-beta.6',
+1 verbose cli   'zone.js@^0.6.6',
+1 verbose cli   'core-js' ]
+2 info using npm@3.8.6
+3 info using node@v5.11.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData angular/core
+8 silly fetchPackageMetaData angular/common
+9 silly fetchPackageMetaData angular/compiler
+10 silly fetchPackageMetaData angular/platform-browser
+11 silly fetchPackageMetaData angular/platform-browser-dynamic
+12 silly fetchPackageMetaData rxjs@5.0.0-beta.6
+13 silly fetchPackageMetaData zone.js@^0.6.6
+14 silly fetchPackageMetaData core-js@^2.4.1
+15 silly fetchNamedPackageData rxjs
+16 silly mapToRegistry name rxjs
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry data Result {
+19 silly mapToRegistry   raw: 'rxjs',
+19 silly mapToRegistry   scope: null,
+19 silly mapToRegistry   name: 'rxjs',
+19 silly mapToRegistry   rawSpec: '',
+19 silly mapToRegistry   spec: 'latest',
+19 silly mapToRegistry   type: 'tag' }
+20 silly mapToRegistry uri https://registry.npmjs.org/rxjs
+21 silly fetchNamedPackageData zone.js
+22 silly mapToRegistry name zone.js
+23 silly mapToRegistry using default registry
+24 silly mapToRegistry registry https://registry.npmjs.org/
+25 silly mapToRegistry data Result {
+25 silly mapToRegistry   raw: 'zone.js',
+25 silly mapToRegistry   scope: null,
+25 silly mapToRegistry   name: 'zone.js',
+25 silly mapToRegistry   rawSpec: '',
+25 silly mapToRegistry   spec: 'latest',
+25 silly mapToRegistry   type: 'tag' }
+26 silly mapToRegistry uri https://registry.npmjs.org/zone.js
+27 silly fetchNamedPackageData core-js
+28 silly mapToRegistry name core-js
+29 silly mapToRegistry using default registry
+30 silly mapToRegistry registry https://registry.npmjs.org/
+31 silly mapToRegistry data Result {
+31 silly mapToRegistry   raw: 'core-js',
+31 silly mapToRegistry   scope: null,
+31 silly mapToRegistry   name: 'core-js',
+31 silly mapToRegistry   rawSpec: '',
+31 silly mapToRegistry   spec: 'latest',
+31 silly mapToRegistry   type: 'tag' }
+32 silly mapToRegistry uri https://registry.npmjs.org/core-js
+33 silly fetchOtherPackageData angular/core
+34 silly cache add args [ 'angular/core', null ]
+35 verbose cache add spec angular/core
+36 silly fetchOtherPackageData angular/common
+37 silly cache add args [ 'angular/common', null ]
+38 verbose cache add spec angular/common
+39 silly fetchOtherPackageData angular/compiler
+40 silly cache add args [ 'angular/compiler', null ]
+41 verbose cache add spec angular/compiler
+42 silly fetchOtherPackageData angular/platform-browser
+43 silly cache add args [ 'angular/platform-browser', null ]
+44 verbose cache add spec angular/platform-browser
+45 silly fetchOtherPackageData angular/platform-browser-dynamic
+46 silly cache add args [ 'angular/platform-browser-dynamic', null ]
+47 verbose cache add spec angular/platform-browser-dynamic
+48 silly cache add parsed spec Result {
+48 silly cache add   raw: 'angular/core',
+48 silly cache add   scope: null,
+48 silly cache add   name: null,
+48 silly cache add   rawSpec: 'angular/core',
+48 silly cache add   spec: 'github:angular/core',
+48 silly cache add   type: 'hosted',
+48 silly cache add   hosted:
+48 silly cache add    { type: 'github',
+48 silly cache add      ssh: 'git@github.com:angular/core.git',
+48 silly cache add      sshUrl: 'git+ssh://git@github.com/angular/core.git',
+48 silly cache add      httpsUrl: 'git+https://github.com/angular/core.git',
+48 silly cache add      gitUrl: 'git://github.com/angular/core.git',
+48 silly cache add      shortcut: 'github:angular/core',
+48 silly cache add      directUrl: 'https://raw.githubusercontent.com/angular/core/master/package.json' } }
+49 verbose addRemoteGit caching angular/core
+50 verbose addRemoteGit angular/core is a repository hosted by github
+51 silly tryGitProto attempting to clone git://github.com/angular/core.git
+52 silly tryClone cloning angular/core via git://github.com/angular/core.git
+53 verbose tryClone git-github-com-angular-core-git-667ca82b not in flight; caching
+54 verbose correctMkdir /root/.npm/_git-remotes correctMkdir not in flight; initializing
+55 silly cache add parsed spec Result {
+55 silly cache add   raw: 'angular/common',
+55 silly cache add   scope: null,
+55 silly cache add   name: null,
+55 silly cache add   rawSpec: 'angular/common',
+55 silly cache add   spec: 'github:angular/common',
+55 silly cache add   type: 'hosted',
+55 silly cache add   hosted:
+55 silly cache add    { type: 'github',
+55 silly cache add      ssh: 'git@github.com:angular/common.git',
+55 silly cache add      sshUrl: 'git+ssh://git@github.com/angular/common.git',
+55 silly cache add      httpsUrl: 'git+https://github.com/angular/common.git',
+55 silly cache add      gitUrl: 'git://github.com/angular/common.git',
+55 silly cache add      shortcut: 'github:angular/common',
+55 silly cache add      directUrl: 'https://raw.githubusercontent.com/angular/common/master/package.json' } }
+56 verbose addRemoteGit caching angular/common
+57 verbose addRemoteGit angular/common is a repository hosted by github
+58 silly tryGitProto attempting to clone git://github.com/angular/common.git
+59 silly tryClone cloning angular/common via git://github.com/angular/common.git
+60 verbose tryClone git-github-com-angular-common-git-65fedd31 not in flight; caching
+61 verbose correctMkdir /root/.npm/_git-remotes correctMkdir already in flight; waiting
+62 silly cache add parsed spec Result {
+62 silly cache add   raw: 'angular/compiler',
+62 silly cache add   scope: null,
+62 silly cache add   name: null,
+62 silly cache add   rawSpec: 'angular/compiler',
+62 silly cache add   spec: 'github:angular/compiler',
+62 silly cache add   type: 'hosted',
+62 silly cache add   hosted:
+62 silly cache add    { type: 'github',
+62 silly cache add      ssh: 'git@github.com:angular/compiler.git',
+62 silly cache add      sshUrl: 'git+ssh://git@github.com/angular/compiler.git',
+62 silly cache add      httpsUrl: 'git+https://github.com/angular/compiler.git',
+62 silly cache add      gitUrl: 'git://github.com/angular/compiler.git',
+62 silly cache add      shortcut: 'github:angular/compiler',
+62 silly cache add      directUrl: 'https://raw.githubusercontent.com/angular/compiler/master/package.json' } }
+63 verbose addRemoteGit caching angular/compiler
+64 verbose addRemoteGit angular/compiler is a repository hosted by github
+65 silly tryGitProto attempting to clone git://github.com/angular/compiler.git
+66 silly tryClone cloning angular/compiler via git://github.com/angular/compiler.git
+67 verbose tryClone git-github-com-angular-compiler-git-99d8064c not in flight; caching
+68 verbose correctMkdir /root/.npm/_git-remotes correctMkdir already in flight; waiting
+69 silly cache add parsed spec Result {
+69 silly cache add   raw: 'angular/platform-browser',
+69 silly cache add   scope: null,
+69 silly cache add   name: null,
+69 silly cache add   rawSpec: 'angular/platform-browser',
+69 silly cache add   spec: 'github:angular/platform-browser',
+69 silly cache add   type: 'hosted',
+69 silly cache add   hosted:
+69 silly cache add    { type: 'github',
+69 silly cache add      ssh: 'git@github.com:angular/platform-browser.git',
+69 silly cache add      sshUrl: 'git+ssh://git@github.com/angular/platform-browser.git',
+69 silly cache add      httpsUrl: 'git+https://github.com/angular/platform-browser.git',
+69 silly cache add      gitUrl: 'git://github.com/angular/platform-browser.git',
+69 silly cache add      shortcut: 'github:angular/platform-browser',
+69 silly cache add      directUrl: 'https://raw.githubusercontent.com/angular/platform-browser/master/package.json' } }
+70 verbose addRemoteGit caching angular/platform-browser
+71 verbose addRemoteGit angular/platform-browser is a repository hosted by github
+72 silly tryGitProto attempting to clone git://github.com/angular/platform-browser.git
+73 silly tryClone cloning angular/platform-browser via git://github.com/angular/platform-browser.git
+74 verbose tryClone git-github-com-angular-platform-browser-git-f6514dfe not in flight; caching
+75 verbose correctMkdir /root/.npm/_git-remotes correctMkdir already in flight; waiting
+76 silly cache add parsed spec Result {
+76 silly cache add   raw: 'angular/platform-browser-dynamic',
+76 silly cache add   scope: null,
+76 silly cache add   name: null,
+76 silly cache add   rawSpec: 'angular/platform-browser-dynamic',
+76 silly cache add   spec: 'github:angular/platform-browser-dynamic',
+76 silly cache add   type: 'hosted',
+76 silly cache add   hosted:
+76 silly cache add    { type: 'github',
+76 silly cache add      ssh: 'git@github.com:angular/platform-browser-dynamic.git',
+76 silly cache add      sshUrl: 'git+ssh://git@github.com/angular/platform-browser-dynamic.git',
+76 silly cache add      httpsUrl: 'git+https://github.com/angular/platform-browser-dynamic.git',
+76 silly cache add      gitUrl: 'git://github.com/angular/platform-browser-dynamic.git',
+76 silly cache add      shortcut: 'github:angular/platform-browser-dynamic',
+76 silly cache add      directUrl: 'https://raw.githubusercontent.com/angular/platform-browser-dynamic/master/package.json' } }
+77 verbose addRemoteGit caching angular/platform-browser-dynamic
+78 verbose addRemoteGit angular/platform-browser-dynamic is a repository hosted by github
+79 silly tryGitProto attempting to clone git://github.com/angular/platform-browser-dynamic.git
+80 silly tryClone cloning angular/platform-browser-dynamic via git://github.com/angular/platform-browser-dynamic.git
+81 verbose tryClone git-github-com-angular-platform-browser-dynamic-git-09a6e515 not in flight; caching
+82 verbose correctMkdir /root/.npm/_git-remotes correctMkdir already in flight; waiting
+83 verbose request uri https://registry.npmjs.org/rxjs
+84 verbose request no auth needed
+85 info attempt registry request try #1 at 8:48:22 AM
+86 verbose request id c0754a0e49f86dbd
+87 verbose etag "D0Y8F9DM2NFZJZ3S0F2I7LANU"
+88 http request GET https://registry.npmjs.org/rxjs
+89 verbose request uri https://registry.npmjs.org/zone.js
+90 verbose request no auth needed
+91 info attempt registry request try #1 at 8:48:22 AM
+92 verbose etag "DE7KMG79GJOJBZLEYM2TSZJ9R"
+93 http request GET https://registry.npmjs.org/zone.js
+94 verbose request uri https://registry.npmjs.org/core-js
+95 verbose request no auth needed
+96 info attempt registry request try #1 at 8:48:22 AM
+97 verbose etag "E7WLDYK96Y1N6XO455PAS1UD"
+98 http request GET https://registry.npmjs.org/core-js
+99 info git [ 'clone',
+99 info git   '--template=/root/.npm/_git-remotes/_templates',
+99 info git   '--mirror',
+99 info git   'git://github.com/angular/core.git',
+99 info git   '/root/.npm/_git-remotes/git-github-com-angular-core-git-667ca82b' ]
+100 info git [ 'clone',
+100 info git   '--template=/root/.npm/_git-remotes/_templates',
+100 info git   '--mirror',
+100 info git   'git://github.com/angular/common.git',
+100 info git   '/root/.npm/_git-remotes/git-github-com-angular-common-git-65fedd31' ]
+101 info git [ 'clone',
+101 info git   '--template=/root/.npm/_git-remotes/_templates',
+101 info git   '--mirror',
+101 info git   'git://github.com/angular/compiler.git',
+101 info git   '/root/.npm/_git-remotes/git-github-com-angular-compiler-git-99d8064c' ]
+102 info git [ 'clone',
+102 info git   '--template=/root/.npm/_git-remotes/_templates',
+102 info git   '--mirror',
+102 info git   'git://github.com/angular/platform-browser.git',
+102 info git   '/root/.npm/_git-remotes/git-github-com-angular-platform-browser-git-f6514dfe' ]
+103 info git [ 'clone',
+103 info git   '--template=/root/.npm/_git-remotes/_templates',
+103 info git   '--mirror',
+103 info git   'git://github.com/angular/platform-browser-dynamic.git',
+103 info git   '/root/.npm/_git-remotes/git-github-com-angular-platform-browser-dynamic-git-09a6e515' ]
+104 http 304 https://registry.npmjs.org/zone.js
+105 verbose headers { date: 'Mon, 22 Aug 2016 08:48:23 GMT',
+105 verbose headers   via: '1.1 varnish',
+105 verbose headers   'cache-control': 'max-age=300',
+105 verbose headers   etag: '"DE7KMG79GJOJBZLEYM2TSZJ9R"',
+105 verbose headers   age: '147',
+105 verbose headers   connection: 'keep-alive',
+105 verbose headers   'x-served-by': 'cache-hkg6825-HKG',
+105 verbose headers   'x-cache': 'HIT',
+105 verbose headers   'x-cache-hits': '2',
+105 verbose headers   'x-timer': 'S1471855703.466079,VS0,VE0',
+105 verbose headers   vary: 'Accept-Encoding' }
+106 silly get cb [ 304,
+106 silly get   { date: 'Mon, 22 Aug 2016 08:48:23 GMT',
+106 silly get     via: '1.1 varnish',
+106 silly get     'cache-control': 'max-age=300',
+106 silly get     etag: '"DE7KMG79GJOJBZLEYM2TSZJ9R"',
+106 silly get     age: '147',
+106 silly get     connection: 'keep-alive',
+106 silly get     'x-served-by': 'cache-hkg6825-HKG',
+106 silly get     'x-cache': 'HIT',
+106 silly get     'x-cache-hits': '2',
+106 silly get     'x-timer': 'S1471855703.466079,VS0,VE0',
+106 silly get     vary: 'Accept-Encoding' } ]
+107 verbose etag https://registry.npmjs.org/zone.js from cache
+108 verbose get saving zone.js to /root/.npm/registry.npmjs.org/zone.js/.cache.json
+109 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+110 http 304 https://registry.npmjs.org/core-js
+111 verbose headers { date: 'Mon, 22 Aug 2016 08:48:23 GMT',
+111 verbose headers   via: '1.1 varnish',
+111 verbose headers   'cache-control': 'max-age=300',
+111 verbose headers   etag: '"E7WLDYK96Y1N6XO455PAS1UD"',
+111 verbose headers   age: '188',
+111 verbose headers   connection: 'keep-alive',
+111 verbose headers   'x-served-by': 'cache-hkg6821-HKG',
+111 verbose headers   'x-cache': 'HIT',
+111 verbose headers   'x-cache-hits': '10',
+111 verbose headers   'x-timer': 'S1471855703.469316,VS0,VE0',
+111 verbose headers   vary: 'Accept-Encoding' }
+112 silly get cb [ 304,
+112 silly get   { date: 'Mon, 22 Aug 2016 08:48:23 GMT',
+112 silly get     via: '1.1 varnish',
+112 silly get     'cache-control': 'max-age=300',
+112 silly get     etag: '"E7WLDYK96Y1N6XO455PAS1UD"',
+112 silly get     age: '188',
+112 silly get     connection: 'keep-alive',
+112 silly get     'x-served-by': 'cache-hkg6821-HKG',
+112 silly get     'x-cache': 'HIT',
+112 silly get     'x-cache-hits': '10',
+112 silly get     'x-timer': 'S1471855703.469316,VS0,VE0',
+112 silly get     vary: 'Accept-Encoding' } ]
+113 verbose etag https://registry.npmjs.org/core-js from cache
+114 verbose get saving core-js to /root/.npm/registry.npmjs.org/core-js/.cache.json
+115 verbose correctMkdir /root/.npm correctMkdir already in flight; waiting
+116 http 304 https://registry.npmjs.org/rxjs
+117 verbose headers { date: 'Mon, 22 Aug 2016 08:48:23 GMT',
+117 verbose headers   via: '1.1 varnish',
+117 verbose headers   'cache-control': 'max-age=300',
+117 verbose headers   etag: '"D0Y8F9DM2NFZJZ3S0F2I7LANU"',
+117 verbose headers   age: '147',
+117 verbose headers   connection: 'keep-alive',
+117 verbose headers   'x-served-by': 'cache-hkg6825-HKG',
+117 verbose headers   'x-cache': 'HIT',
+117 verbose headers   'x-cache-hits': '1',
+117 verbose headers   'x-timer': 'S1471855703.477276,VS0,VE0',
+117 verbose headers   vary: 'Accept-Encoding' }
+118 silly get cb [ 304,
+118 silly get   { date: 'Mon, 22 Aug 2016 08:48:23 GMT',
+118 silly get     via: '1.1 varnish',
+118 silly get     'cache-control': 'max-age=300',
+118 silly get     etag: '"D0Y8F9DM2NFZJZ3S0F2I7LANU"',
+118 silly get     age: '147',
+118 silly get     connection: 'keep-alive',
+118 silly get     'x-served-by': 'cache-hkg6825-HKG',
+118 silly get     'x-cache': 'HIT',
+118 silly get     'x-cache-hits': '1',
+118 silly get     'x-timer': 'S1471855703.477276,VS0,VE0',
+118 silly get     vary: 'Accept-Encoding' } ]
+119 verbose etag https://registry.npmjs.org/rxjs from cache
+120 verbose get saving rxjs to /root/.npm/registry.npmjs.org/rxjs/.cache.json
+121 verbose correctMkdir /root/.npm correctMkdir not in flight; initializing
+122 verbose git clone --template=/root/.npm/_git-remotes/_templates --mirror git://github.com/angular/platform-browser.git /root/.npm/_git-remotes/git-github-com-angular-platform-browser-git-f6514dfe: Cloning into bare repository '/root/.npm/_git-remotes/git-github-com-angular-platform-browser-git-f6514dfe'...
+122 verbose git clone --template=/root/.npm/_git-remotes/_templates --mirror git://github.com/angular/platform-browser.git /root/.npm/_git-remotes/git-github-com-angular-platform-browser-git-f6514dfe: fatal: remote error:
+122 verbose git clone --template=/root/.npm/_git-remotes/_templates --mirror git://github.com/angular/platform-browser.git /root/.npm/_git-remotes/git-github-com-angular-platform-browser-git-f6514dfe:   Repository not found.
+123 silly tryHTTPS attempting to clone git+https://github.com/angular/platform-browser.git
+124 silly tryClone cloning angular/platform-browser via git+https://github.com/angular/platform-browser.git
+125 verbose tryClone git-https-github-com-angular-platform-browser-git-ad5974c4 not in flight; caching
+126 verbose correctMkdir /root/.npm/_git-remotes correctMkdir not in flight; initializing
+127 verbose git clone --template=/root/.npm/_git-remotes/_templates --mirror git://github.com/angular/common.git /root/.npm/_git-remotes/git-github-com-angular-common-git-65fedd31: Cloning into bare repository '/root/.npm/_git-remotes/git-github-com-angular-common-git-65fedd31'...
+127 verbose git clone --template=/root/.npm/_git-remotes/_templates --mirror git://github.com/angular/common.git /root/.npm/_git-remotes/git-github-com-angular-common-git-65fedd31: fatal: remote error:
+127 verbose git clone --template=/root/.npm/_git-remotes/_templates --mirror git://github.com/angular/common.git /root/.npm/_git-remotes/git-github-com-angular-common-git-65fedd31:   Repository not found.
+128 silly tryHTTPS attempting to clone git+https://github.com/angular/common.git
+129 silly tryClone cloning angular/common via git+https://github.com/angular/common.git
+130 verbose tryClone git-https-github-com-angular-common-git-5161dd0e not in flight; caching
+131 verbose correctMkdir /root/.npm/_git-remotes correctMkdir not in flight; initializing
+132 verbose git clone --template=/root/.npm/_git-remotes/_templates --mirror git://github.com/angular/platform-browser-dynamic.git /root/.npm/_git-remotes/git-github-com-angular-platform-browser-dynamic-git-09a6e515: Cloning into bare repository '/root/.npm/_git-remotes/git-github-com-angular-platform-browser-dynamic-git-09a6e515'...
+132 verbose git clone --template=/root/.npm/_git-remotes/_templates --mirror git://github.com/angular/platform-browser-dynamic.git /root/.npm/_git-remotes/git-github-com-angular-platform-browser-dynamic-git-09a6e515: fatal: remote error:
+132 verbose git clone --template=/root/.npm/_git-remotes/_templates --mirror git://github.com/angular/platform-browser-dynamic.git /root/.npm/_git-remotes/git-github-com-angular-platform-browser-dynamic-git-09a6e515:   Repository not found.
+133 silly tryHTTPS attempting to clone git+https://github.com/angular/platform-browser-dynamic.git
+134 silly tryClone cloning angular/platform-browser-dynamic via git+https://github.com/angular/platform-browser-dynamic.git
+135 verbose tryClone git-https-github-com-angular-platform-browser-dynamic-git-83461722 not in flight; caching
+136 verbose correctMkdir /root/.npm/_git-remotes correctMkdir not in flight; initializing
+137 verbose git clone --template=/root/.npm/_git-remotes/_templates --mirror git://github.com/angular/compiler.git /root/.npm/_git-remotes/git-github-com-angular-compiler-git-99d8064c: Cloning into bare repository '/root/.npm/_git-remotes/git-github-com-angular-compiler-git-99d8064c'...
+137 verbose git clone --template=/root/.npm/_git-remotes/_templates --mirror git://github.com/angular/compiler.git /root/.npm/_git-remotes/git-github-com-angular-compiler-git-99d8064c: fatal: remote error:
+137 verbose git clone --template=/root/.npm/_git-remotes/_templates --mirror git://github.com/angular/compiler.git /root/.npm/_git-remotes/git-github-com-angular-compiler-git-99d8064c:   Repository not found.
+138 silly tryHTTPS attempting to clone git+https://github.com/angular/compiler.git
+139 silly tryClone cloning angular/compiler via git+https://github.com/angular/compiler.git
+140 verbose tryClone git-https-github-com-angular-compiler-git-783e1d63 not in flight; caching
+141 verbose correctMkdir /root/.npm/_git-remotes correctMkdir not in flight; initializing
+142 info git [ 'clone',
+142 info git   '--template=/root/.npm/_git-remotes/_templates',
+142 info git   '--mirror',
+142 info git   'https://github.com/angular/platform-browser.git',
+142 info git   '/root/.npm/_git-remotes/git-https-github-com-angular-platform-browser-git-ad5974c4' ]
+143 info git [ 'clone',
+143 info git   '--template=/root/.npm/_git-remotes/_templates',
+143 info git   '--mirror',
+143 info git   'https://github.com/angular/common.git',
+143 info git   '/root/.npm/_git-remotes/git-https-github-com-angular-common-git-5161dd0e' ]
+144 info git [ 'clone',
+144 info git   '--template=/root/.npm/_git-remotes/_templates',
+144 info git   '--mirror',
+144 info git   'https://github.com/angular/platform-browser-dynamic.git',
+144 info git   '/root/.npm/_git-remotes/git-https-github-com-angular-platform-browser-dynamic-git-83461722' ]
+145 info git [ 'clone',
+145 info git   '--template=/root/.npm/_git-remotes/_templates',
+145 info git   '--mirror',
+145 info git   'https://github.com/angular/compiler.git',
+145 info git   '/root/.npm/_git-remotes/git-https-github-com-angular-compiler-git-783e1d63' ]
+146 verbose git clone --template=/root/.npm/_git-remotes/_templates --mirror git://github.com/angular/core.git /root/.npm/_git-remotes/git-github-com-angular-core-git-667ca82b: Cloning into bare repository '/root/.npm/_git-remotes/git-github-com-angular-core-git-667ca82b'...
+146 verbose git clone --template=/root/.npm/_git-remotes/_templates --mirror git://github.com/angular/core.git /root/.npm/_git-remotes/git-github-com-angular-core-git-667ca82b: fatal: remote error:
+146 verbose git clone --template=/root/.npm/_git-remotes/_templates --mirror git://github.com/angular/core.git /root/.npm/_git-remotes/git-github-com-angular-core-git-667ca82b:   Repository not found.
+147 silly tryHTTPS attempting to clone git+https://github.com/angular/core.git
+148 silly tryClone cloning angular/core via git+https://github.com/angular/core.git
+149 verbose tryClone git-https-github-com-angular-core-git-d4915b66 not in flight; caching
+150 verbose correctMkdir /root/.npm/_git-remotes correctMkdir not in flight; initializing
+151 info git [ 'clone',
+151 info git   '--template=/root/.npm/_git-remotes/_templates',
+151 info git   '--mirror',
+151 info git   'https://github.com/angular/core.git',
+151 info git   '/root/.npm/_git-remotes/git-https-github-com-angular-core-git-d4915b66' ]
+152 verbose git clone --template=/root/.npm/_git-remotes/_templates --mirror https://github.com/angular/core.git /root/.npm/_git-remotes/git-https-github-com-angular-core-git-d4915b66: Cloning into bare repository '/root/.npm/_git-remotes/git-https-github-com-angular-core-git-d4915b66'...
+152 verbose git clone --template=/root/.npm/_git-remotes/_templates --mirror https://github.com/angular/core.git /root/.npm/_git-remotes/git-https-github-com-angular-core-git-d4915b66: remote: Invalid username or password.
+152 verbose git clone --template=/root/.npm/_git-remotes/_templates --mirror https://github.com/angular/core.git /root/.npm/_git-remotes/git-https-github-com-angular-core-git-d4915b66: fatal: Authentication failed for 'https://github.com/angular/core.git/'
+153 silly trySSH attempting to clone git@github.com:angular/core.git
+154 silly tryClone cloning angular/core via git@github.com:angular/core.git
+155 verbose tryClone git-github-com-angular-core-git-491ea1b8 not in flight; caching
+156 verbose correctMkdir /root/.npm/_git-remotes correctMkdir not in flight; initializing
+157 info git [ 'clone',
+157 info git   '--template=/root/.npm/_git-remotes/_templates',
+157 info git   '--mirror',
+157 info git   'git@github.com:angular/core.git',
+157 info git   '/root/.npm/_git-remotes/git-github-com-angular-core-git-491ea1b8' ]
+158 verbose git clone --template=/root/.npm/_git-remotes/_templates --mirror https://github.com/angular/compiler.git /root/.npm/_git-remotes/git-https-github-com-angular-compiler-git-783e1d63: Cloning into bare repository '/root/.npm/_git-remotes/git-https-github-com-angular-compiler-git-783e1d63'...
+158 verbose git clone --template=/root/.npm/_git-remotes/_templates --mirror https://github.com/angular/compiler.git /root/.npm/_git-remotes/git-https-github-com-angular-compiler-git-783e1d63: remote: Invalid username or password.
+158 verbose git clone --template=/root/.npm/_git-remotes/_templates --mirror https://github.com/angular/compiler.git /root/.npm/_git-remotes/git-https-github-com-angular-compiler-git-783e1d63: fatal: Authentication failed for 'https://github.com/angular/compiler.git/'
+159 silly trySSH attempting to clone git@github.com:angular/compiler.git
+160 silly tryClone cloning angular/compiler via git@github.com:angular/compiler.git
+161 verbose tryClone git-github-com-angular-compiler-git-0b44ebe9 not in flight; caching
+162 verbose correctMkdir /root/.npm/_git-remotes correctMkdir not in flight; initializing
+163 verbose git clone --template=/root/.npm/_git-remotes/_templates --mirror https://github.com/angular/common.git /root/.npm/_git-remotes/git-https-github-com-angular-common-git-5161dd0e: Cloning into bare repository '/root/.npm/_git-remotes/git-https-github-com-angular-common-git-5161dd0e'...
+163 verbose git clone --template=/root/.npm/_git-remotes/_templates --mirror https://github.com/angular/common.git /root/.npm/_git-remotes/git-https-github-com-angular-common-git-5161dd0e: remote: Invalid username or password.
+163 verbose git clone --template=/root/.npm/_git-remotes/_templates --mirror https://github.com/angular/common.git /root/.npm/_git-remotes/git-https-github-com-angular-common-git-5161dd0e: fatal: Authentication failed for 'https://github.com/angular/common.git/'
+164 silly trySSH attempting to clone git@github.com:angular/common.git
+165 silly tryClone cloning angular/common via git@github.com:angular/common.git
+166 verbose tryClone git-github-com-angular-common-git-8b760edf not in flight; caching
+167 verbose correctMkdir /root/.npm/_git-remotes correctMkdir not in flight; initializing
+168 info git [ 'clone',
+168 info git   '--template=/root/.npm/_git-remotes/_templates',
+168 info git   '--mirror',
+168 info git   'git@github.com:angular/compiler.git',
+168 info git   '/root/.npm/_git-remotes/git-github-com-angular-compiler-git-0b44ebe9' ]
+169 info git [ 'clone',
+169 info git   '--template=/root/.npm/_git-remotes/_templates',
+169 info git   '--mirror',
+169 info git   'git@github.com:angular/common.git',
+169 info git   '/root/.npm/_git-remotes/git-github-com-angular-common-git-8b760edf' ]
+170 verbose git clone --template=/root/.npm/_git-remotes/_templates --mirror https://github.com/angular/platform-browser.git /root/.npm/_git-remotes/git-https-github-com-angular-platform-browser-git-ad5974c4: Cloning into bare repository '/root/.npm/_git-remotes/git-https-github-com-angular-platform-browser-git-ad5974c4'...
+170 verbose git clone --template=/root/.npm/_git-remotes/_templates --mirror https://github.com/angular/platform-browser.git /root/.npm/_git-remotes/git-https-github-com-angular-platform-browser-git-ad5974c4: remote: Invalid username or password.
+170 verbose git clone --template=/root/.npm/_git-remotes/_templates --mirror https://github.com/angular/platform-browser.git /root/.npm/_git-remotes/git-https-github-com-angular-platform-browser-git-ad5974c4: fatal: Authentication failed for 'https://github.com/angular/platform-browser.git/'
+171 silly trySSH attempting to clone git@github.com:angular/platform-browser.git
+172 silly tryClone cloning angular/platform-browser via git@github.com:angular/platform-browser.git
+173 verbose tryClone git-github-com-angular-platform-browser-git-ce91f5a0 not in flight; caching
+174 verbose correctMkdir /root/.npm/_git-remotes correctMkdir not in flight; initializing
+175 info git [ 'clone',
+175 info git   '--template=/root/.npm/_git-remotes/_templates',
+175 info git   '--mirror',
+175 info git   'git@github.com:angular/platform-browser.git',
+175 info git   '/root/.npm/_git-remotes/git-github-com-angular-platform-browser-git-ce91f5a0' ]
+176 verbose git clone --template=/root/.npm/_git-remotes/_templates --mirror https://github.com/angular/platform-browser-dynamic.git /root/.npm/_git-remotes/git-https-github-com-angular-platform-browser-dynamic-git-83461722: Cloning into bare repository '/root/.npm/_git-remotes/git-https-github-com-angular-platform-browser-dynamic-git-83461722'...
+176 verbose git clone --template=/root/.npm/_git-remotes/_templates --mirror https://github.com/angular/platform-browser-dynamic.git /root/.npm/_git-remotes/git-https-github-com-angular-platform-browser-dynamic-git-83461722: remote: Invalid username or password.
+176 verbose git clone --template=/root/.npm/_git-remotes/_templates --mirror https://github.com/angular/platform-browser-dynamic.git /root/.npm/_git-remotes/git-https-github-com-angular-platform-browser-dynamic-git-83461722: fatal: Authentication failed for 'https://github.com/angular/platform-browser-dynamic.git/'
+177 silly trySSH attempting to clone git@github.com:angular/platform-browser-dynamic.git
+178 silly tryClone cloning angular/platform-browser-dynamic via git@github.com:angular/platform-browser-dynamic.git
+179 verbose tryClone git-github-com-angular-platform-browser-dynamic-git-7c5efa08 not in flight; caching
+180 verbose correctMkdir /root/.npm/_git-remotes correctMkdir not in flight; initializing
+181 info git [ 'clone',
+181 info git   '--template=/root/.npm/_git-remotes/_templates',
+181 info git   '--mirror',
+181 info git   'git@github.com:angular/platform-browser-dynamic.git',
+181 info git   '/root/.npm/_git-remotes/git-github-com-angular-platform-browser-dynamic-git-7c5efa08' ]
+182 error git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/platform-browser-dynamic.git /root/.npm/_git-remotes/git-github-com-angular-platform-browser-dynamic-git-7c5efa08: Cloning into bare repository '/root/.npm/_git-remotes/git-github-com-angular-platform-browser-dynamic-git-7c5efa08'...
+182 error git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/platform-browser-dynamic.git /root/.npm/_git-remotes/git-github-com-angular-platform-browser-dynamic-git-7c5efa08: ERROR: Repository not found.
+182 error git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/platform-browser-dynamic.git /root/.npm/_git-remotes/git-github-com-angular-platform-browser-dynamic-git-7c5efa08: fatal: Could not read from remote repository.
+182 error git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/platform-browser-dynamic.git /root/.npm/_git-remotes/git-github-com-angular-platform-browser-dynamic-git-7c5efa08:
+182 error git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/platform-browser-dynamic.git /root/.npm/_git-remotes/git-github-com-angular-platform-browser-dynamic-git-7c5efa08: Please make sure you have the correct access rights
+182 error git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/platform-browser-dynamic.git /root/.npm/_git-remotes/git-github-com-angular-platform-browser-dynamic-git-7c5efa08: and the repository exists.
+183 silly fetchPackageMetaData Error: Command failed: git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/platform-browser-dynamic.git /root/.npm/_git-remotes/git-github-com-angular-platform-browser-dynamic-git-7c5efa08
+183 silly fetchPackageMetaData Cloning into bare repository '/root/.npm/_git-remotes/git-github-com-angular-platform-browser-dynamic-git-7c5efa08'...
+183 silly fetchPackageMetaData ERROR: Repository not found.
+183 silly fetchPackageMetaData fatal: Could not read from remote repository.
+183 silly fetchPackageMetaData
+183 silly fetchPackageMetaData Please make sure you have the correct access rights
+183 silly fetchPackageMetaData and the repository exists.
+183 silly fetchPackageMetaData
+183 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:202:12)
+183 silly fetchPackageMetaData     at emitTwo (events.js:100:13)
+183 silly fetchPackageMetaData     at ChildProcess.emit (events.js:185:7)
+183 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:850:16)
+183 silly fetchPackageMetaData     at Socket.<anonymous> (internal/child_process.js:323:11)
+183 silly fetchPackageMetaData     at emitOne (events.js:90:13)
+183 silly fetchPackageMetaData     at Socket.emit (events.js:182:7)
+183 silly fetchPackageMetaData     at Pipe._onclose (net.js:484:12)
+183 silly fetchPackageMetaData  error for angular/platform-browser-dynamic { [Error: Command failed: git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/platform-browser-dynamic.git /root/.npm/_git-remotes/git-github-com-angular-platform-browser-dynamic-git-7c5efa08
+183 silly fetchPackageMetaData Cloning into bare repository '/root/.npm/_git-remotes/git-github-com-angular-platform-browser-dynamic-git-7c5efa08'...
+183 silly fetchPackageMetaData ERROR: Repository not found.
+183 silly fetchPackageMetaData fatal: Could not read from remote repository.
+183 silly fetchPackageMetaData
+183 silly fetchPackageMetaData Please make sure you have the correct access rights
+183 silly fetchPackageMetaData and the repository exists.
+183 silly fetchPackageMetaData ]
+183 silly fetchPackageMetaData   killed: false,
+183 silly fetchPackageMetaData   code: 128,
+183 silly fetchPackageMetaData   signal: null,
+183 silly fetchPackageMetaData   cmd: 'git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/platform-browser-dynamic.git /root/.npm/_git-remotes/git-github-com-angular-platform-browser-dynamic-git-7c5efa08' }
+184 error git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/platform-browser.git /root/.npm/_git-remotes/git-github-com-angular-platform-browser-git-ce91f5a0: Cloning into bare repository '/root/.npm/_git-remotes/git-github-com-angular-platform-browser-git-ce91f5a0'...
+184 error git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/platform-browser.git /root/.npm/_git-remotes/git-github-com-angular-platform-browser-git-ce91f5a0: ERROR: Repository not found.
+184 error git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/platform-browser.git /root/.npm/_git-remotes/git-github-com-angular-platform-browser-git-ce91f5a0: fatal: Could not read from remote repository.
+184 error git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/platform-browser.git /root/.npm/_git-remotes/git-github-com-angular-platform-browser-git-ce91f5a0:
+184 error git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/platform-browser.git /root/.npm/_git-remotes/git-github-com-angular-platform-browser-git-ce91f5a0: Please make sure you have the correct access rights
+184 error git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/platform-browser.git /root/.npm/_git-remotes/git-github-com-angular-platform-browser-git-ce91f5a0: and the repository exists.
+185 silly fetchPackageMetaData Error: Command failed: git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/platform-browser.git /root/.npm/_git-remotes/git-github-com-angular-platform-browser-git-ce91f5a0
+185 silly fetchPackageMetaData Cloning into bare repository '/root/.npm/_git-remotes/git-github-com-angular-platform-browser-git-ce91f5a0'...
+185 silly fetchPackageMetaData ERROR: Repository not found.
+185 silly fetchPackageMetaData fatal: Could not read from remote repository.
+185 silly fetchPackageMetaData
+185 silly fetchPackageMetaData Please make sure you have the correct access rights
+185 silly fetchPackageMetaData and the repository exists.
+185 silly fetchPackageMetaData
+185 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:202:12)
+185 silly fetchPackageMetaData     at emitTwo (events.js:100:13)
+185 silly fetchPackageMetaData     at ChildProcess.emit (events.js:185:7)
+185 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:850:16)
+185 silly fetchPackageMetaData     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
+185 silly fetchPackageMetaData  error for angular/platform-browser { [Error: Command failed: git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/platform-browser.git /root/.npm/_git-remotes/git-github-com-angular-platform-browser-git-ce91f5a0
+185 silly fetchPackageMetaData Cloning into bare repository '/root/.npm/_git-remotes/git-github-com-angular-platform-browser-git-ce91f5a0'...
+185 silly fetchPackageMetaData ERROR: Repository not found.
+185 silly fetchPackageMetaData fatal: Could not read from remote repository.
+185 silly fetchPackageMetaData
+185 silly fetchPackageMetaData Please make sure you have the correct access rights
+185 silly fetchPackageMetaData and the repository exists.
+185 silly fetchPackageMetaData ]
+185 silly fetchPackageMetaData   killed: false,
+185 silly fetchPackageMetaData   code: 128,
+185 silly fetchPackageMetaData   signal: null,
+185 silly fetchPackageMetaData   cmd: 'git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/platform-browser.git /root/.npm/_git-remotes/git-github-com-angular-platform-browser-git-ce91f5a0' }
+186 error git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/common.git /root/.npm/_git-remotes/git-github-com-angular-common-git-8b760edf: Cloning into bare repository '/root/.npm/_git-remotes/git-github-com-angular-common-git-8b760edf'...
+186 error git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/common.git /root/.npm/_git-remotes/git-github-com-angular-common-git-8b760edf: ERROR: Repository not found.
+186 error git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/common.git /root/.npm/_git-remotes/git-github-com-angular-common-git-8b760edf: fatal: Could not read from remote repository.
+186 error git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/common.git /root/.npm/_git-remotes/git-github-com-angular-common-git-8b760edf:
+186 error git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/common.git /root/.npm/_git-remotes/git-github-com-angular-common-git-8b760edf: Please make sure you have the correct access rights
+186 error git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/common.git /root/.npm/_git-remotes/git-github-com-angular-common-git-8b760edf: and the repository exists.
+187 silly fetchPackageMetaData Error: Command failed: git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/common.git /root/.npm/_git-remotes/git-github-com-angular-common-git-8b760edf
+187 silly fetchPackageMetaData Cloning into bare repository '/root/.npm/_git-remotes/git-github-com-angular-common-git-8b760edf'...
+187 silly fetchPackageMetaData ERROR: Repository not found.
+187 silly fetchPackageMetaData fatal: Could not read from remote repository.
+187 silly fetchPackageMetaData
+187 silly fetchPackageMetaData Please make sure you have the correct access rights
+187 silly fetchPackageMetaData and the repository exists.
+187 silly fetchPackageMetaData
+187 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:202:12)
+187 silly fetchPackageMetaData     at emitTwo (events.js:100:13)
+187 silly fetchPackageMetaData     at ChildProcess.emit (events.js:185:7)
+187 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:850:16)
+187 silly fetchPackageMetaData     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
+187 silly fetchPackageMetaData  error for angular/common { [Error: Command failed: git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/common.git /root/.npm/_git-remotes/git-github-com-angular-common-git-8b760edf
+187 silly fetchPackageMetaData Cloning into bare repository '/root/.npm/_git-remotes/git-github-com-angular-common-git-8b760edf'...
+187 silly fetchPackageMetaData ERROR: Repository not found.
+187 silly fetchPackageMetaData fatal: Could not read from remote repository.
+187 silly fetchPackageMetaData
+187 silly fetchPackageMetaData Please make sure you have the correct access rights
+187 silly fetchPackageMetaData and the repository exists.
+187 silly fetchPackageMetaData ]
+187 silly fetchPackageMetaData   killed: false,
+187 silly fetchPackageMetaData   code: 128,
+187 silly fetchPackageMetaData   signal: null,
+187 silly fetchPackageMetaData   cmd: 'git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/common.git /root/.npm/_git-remotes/git-github-com-angular-common-git-8b760edf' }
+188 error git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/core.git /root/.npm/_git-remotes/git-github-com-angular-core-git-491ea1b8: Cloning into bare repository '/root/.npm/_git-remotes/git-github-com-angular-core-git-491ea1b8'...
+188 error git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/core.git /root/.npm/_git-remotes/git-github-com-angular-core-git-491ea1b8: ERROR: Repository not found.
+188 error git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/core.git /root/.npm/_git-remotes/git-github-com-angular-core-git-491ea1b8: fatal: Could not read from remote repository.
+188 error git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/core.git /root/.npm/_git-remotes/git-github-com-angular-core-git-491ea1b8:
+188 error git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/core.git /root/.npm/_git-remotes/git-github-com-angular-core-git-491ea1b8: Please make sure you have the correct access rights
+188 error git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/core.git /root/.npm/_git-remotes/git-github-com-angular-core-git-491ea1b8: and the repository exists.
+189 silly fetchPackageMetaData Error: Command failed: git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/core.git /root/.npm/_git-remotes/git-github-com-angular-core-git-491ea1b8
+189 silly fetchPackageMetaData Cloning into bare repository '/root/.npm/_git-remotes/git-github-com-angular-core-git-491ea1b8'...
+189 silly fetchPackageMetaData ERROR: Repository not found.
+189 silly fetchPackageMetaData fatal: Could not read from remote repository.
+189 silly fetchPackageMetaData
+189 silly fetchPackageMetaData Please make sure you have the correct access rights
+189 silly fetchPackageMetaData and the repository exists.
+189 silly fetchPackageMetaData
+189 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:202:12)
+189 silly fetchPackageMetaData     at emitTwo (events.js:100:13)
+189 silly fetchPackageMetaData     at ChildProcess.emit (events.js:185:7)
+189 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:850:16)
+189 silly fetchPackageMetaData     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
+189 silly fetchPackageMetaData  error for angular/core { [Error: Command failed: git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/core.git /root/.npm/_git-remotes/git-github-com-angular-core-git-491ea1b8
+189 silly fetchPackageMetaData Cloning into bare repository '/root/.npm/_git-remotes/git-github-com-angular-core-git-491ea1b8'...
+189 silly fetchPackageMetaData ERROR: Repository not found.
+189 silly fetchPackageMetaData fatal: Could not read from remote repository.
+189 silly fetchPackageMetaData
+189 silly fetchPackageMetaData Please make sure you have the correct access rights
+189 silly fetchPackageMetaData and the repository exists.
+189 silly fetchPackageMetaData ]
+189 silly fetchPackageMetaData   killed: false,
+189 silly fetchPackageMetaData   code: 128,
+189 silly fetchPackageMetaData   signal: null,
+189 silly fetchPackageMetaData   cmd: 'git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/core.git /root/.npm/_git-remotes/git-github-com-angular-core-git-491ea1b8' }
+190 error git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/compiler.git /root/.npm/_git-remotes/git-github-com-angular-compiler-git-0b44ebe9: Cloning into bare repository '/root/.npm/_git-remotes/git-github-com-angular-compiler-git-0b44ebe9'...
+190 error git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/compiler.git /root/.npm/_git-remotes/git-github-com-angular-compiler-git-0b44ebe9: ERROR: Repository not found.
+190 error git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/compiler.git /root/.npm/_git-remotes/git-github-com-angular-compiler-git-0b44ebe9: fatal: Could not read from remote repository.
+190 error git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/compiler.git /root/.npm/_git-remotes/git-github-com-angular-compiler-git-0b44ebe9:
+190 error git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/compiler.git /root/.npm/_git-remotes/git-github-com-angular-compiler-git-0b44ebe9: Please make sure you have the correct access rights
+190 error git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/compiler.git /root/.npm/_git-remotes/git-github-com-angular-compiler-git-0b44ebe9: and the repository exists.
+191 silly fetchPackageMetaData Error: Command failed: git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/compiler.git /root/.npm/_git-remotes/git-github-com-angular-compiler-git-0b44ebe9
+191 silly fetchPackageMetaData Cloning into bare repository '/root/.npm/_git-remotes/git-github-com-angular-compiler-git-0b44ebe9'...
+191 silly fetchPackageMetaData ERROR: Repository not found.
+191 silly fetchPackageMetaData fatal: Could not read from remote repository.
+191 silly fetchPackageMetaData
+191 silly fetchPackageMetaData Please make sure you have the correct access rights
+191 silly fetchPackageMetaData and the repository exists.
+191 silly fetchPackageMetaData
+191 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:202:12)
+191 silly fetchPackageMetaData     at emitTwo (events.js:100:13)
+191 silly fetchPackageMetaData     at ChildProcess.emit (events.js:185:7)
+191 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:850:16)
+191 silly fetchPackageMetaData     at Socket.<anonymous> (internal/child_process.js:323:11)
+191 silly fetchPackageMetaData     at emitOne (events.js:90:13)
+191 silly fetchPackageMetaData     at Socket.emit (events.js:182:7)
+191 silly fetchPackageMetaData     at Pipe._onclose (net.js:484:12)
+191 silly fetchPackageMetaData  error for angular/compiler { [Error: Command failed: git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/compiler.git /root/.npm/_git-remotes/git-github-com-angular-compiler-git-0b44ebe9
+191 silly fetchPackageMetaData Cloning into bare repository '/root/.npm/_git-remotes/git-github-com-angular-compiler-git-0b44ebe9'...
+191 silly fetchPackageMetaData ERROR: Repository not found.
+191 silly fetchPackageMetaData fatal: Could not read from remote repository.
+191 silly fetchPackageMetaData
+191 silly fetchPackageMetaData Please make sure you have the correct access rights
+191 silly fetchPackageMetaData and the repository exists.
+191 silly fetchPackageMetaData ]
+191 silly fetchPackageMetaData   killed: false,
+191 silly fetchPackageMetaData   code: 128,
+191 silly fetchPackageMetaData   signal: null,
+191 silly fetchPackageMetaData   cmd: 'git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/compiler.git /root/.npm/_git-remotes/git-github-com-angular-compiler-git-0b44ebe9' }
+192 silly rollbackFailedOptional Starting
+193 silly rollbackFailedOptional Finishing
+194 silly runTopLevelLifecycles Starting
+195 silly runTopLevelLifecycles Finishing
+196 silly install printInstalled
+197 verbose stack Error: Command failed: git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/platform-browser-dynamic.git /root/.npm/_git-remotes/git-github-com-angular-platform-browser-dynamic-git-7c5efa08
+197 verbose stack Cloning into bare repository '/root/.npm/_git-remotes/git-github-com-angular-platform-browser-dynamic-git-7c5efa08'...
+197 verbose stack ERROR: Repository not found.
+197 verbose stack fatal: Could not read from remote repository.
+197 verbose stack
+197 verbose stack Please make sure you have the correct access rights
+197 verbose stack and the repository exists.
+197 verbose stack
+197 verbose stack     at ChildProcess.exithandler (child_process.js:202:12)
+197 verbose stack     at emitTwo (events.js:100:13)
+197 verbose stack     at ChildProcess.emit (events.js:185:7)
+197 verbose stack     at maybeClose (internal/child_process.js:850:16)
+197 verbose stack     at Socket.<anonymous> (internal/child_process.js:323:11)
+197 verbose stack     at emitOne (events.js:90:13)
+197 verbose stack     at Socket.emit (events.js:182:7)
+197 verbose stack     at Pipe._onclose (net.js:484:12)
+198 verbose cwd /srv/www/miyamoto.com/angular2
+199 error Linux 2.6.32-642.3.1.el6.x86_64
+200 error argv "/usr/bin/node" "/usr/bin/npm" "i" "-S" "angular/core" "angular/common" "angular/compiler" "angular/platform-browser" "angular/platform-browser-dynamic" "rxjs@5.0.0-beta.6" "zone.js@^0.6.6" "core-js"
+201 error node v5.11.1
+202 error npm  v3.8.6
+203 error code 128
+204 error Command failed: git clone --template=/root/.npm/_git-remotes/_templates --mirror git@github.com:angular/platform-browser-dynamic.git /root/.npm/_git-remotes/git-github-com-angular-platform-browser-dynamic-git-7c5efa08
+204 error Cloning into bare repository '/root/.npm/_git-remotes/git-github-com-angular-platform-browser-dynamic-git-7c5efa08'...
+204 error ERROR: Repository not found.
+204 error fatal: Could not read from remote repository.
+204 error
+204 error Please make sure you have the correct access rights
+204 error and the repository exists.
+205 error If you need help, you may report this error at:
+205 error     <https://github.com/npm/npm/issues>
+206 verbose exit [ 1, true ]
